@@ -321,11 +321,13 @@ A "Hello World" message should be seen after running the command.
 
 The ```resources``` directory contains the automation tasks for your project, All the automation tasks you want the 
 tile implements should be defined in the action YAML files.
-By default, all the actions just print a "Hello World" message. 
+By default, all the actions just print a "Hello World" message. to define your own task, please refer to the following steps:
 
 1. set up your tasks in the action file
 
-For example, in the following ```init.yml``` file, a new task can be added for Tile to create a new Github repository for holding the project:
+For example, the init action can be setup to create a new Github repository for holding the project, then in the ```init.yml``` file,
+the following tasks should be defined:
+
 ```
 # init.yml
 
