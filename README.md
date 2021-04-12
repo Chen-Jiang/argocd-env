@@ -68,6 +68,8 @@ Before starting a new Tile development effort, it is recommended that you first 
 If no existing Tile satisfies the use case, please refer to [Tile Development](#tile-development) to begin developing a
 Tile.
 
+An example demo is also provided to demonstrate how a Tile is created and developed, please refer to [Example Demo](#tile-example-demo).
+
 ## Available Tiles
 To discover the available Tiles, at time of writing, the simplest method is to 
 [search for repositories beginning with "kinetik-tile-"](https://github.com/orgs/section6nz/teams/kosmos/repositories?query=kinetik-tile-). In the future, a 'Tile Registry' will be developed to enable effective discovery and distribution of Tiles.
