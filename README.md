@@ -321,7 +321,9 @@ A "Hello World" message should be seen after running the command.
 
 The ```resources``` directory contains the automation tasks for your project, All the automation tasks you want the 
 tile implements should be defined in the action YAML files.
-By default, all the actions just print a "Hello World" message. to define your own task, please refer to the following steps:
+By default, all the actions just print a "Hello World" message. 
+
+To define your own task, please refer to the following steps:
 
 1. set up your tasks in the action file
 
@@ -348,7 +350,8 @@ the following tasks should be defined:
 2. Clarify the schema of Tile
 
 The variables included in the double curly brackets in the ```init.yml``` are the required to connect and authenticate for your Github account, all the information should
-be clarified in the schema of the Tile config(```/tile/yml``):
+be clarified in the schema of the Tile config(```/tile/yml```):
+
 ```
 # tile.yml
 
@@ -395,6 +398,7 @@ schema: |
         ]
 ```
 The values of these required variable is stored in the config file (```/config.json```):
+
 ```
 {
   "repositoryUsername": "<USERNAME>",
@@ -410,6 +414,7 @@ The values of these required variable is stored in the config file (```/config.j
 
 To run the task defined in the init action, Github CLI(```gh```) is used. Before running the actions, ```gh``` should be installed.
 In the ```DOCKERFILE```, all the installation is clarified:
+
 ```
 # DOCKERFILE
 
